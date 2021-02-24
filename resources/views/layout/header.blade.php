@@ -33,10 +33,9 @@
                                 <li class="dropdown">
                                     <a href="#" class="parent-link">Services</a>
                                     <ul class="dropdown-lists">
-                                        <li><a href="#">Snappy Car Detailing</a></li>
-                                        <li><a href="#">Disinfectant Services</a></li>
-                                        <li><a href="#">Car wash</a></li>
-                                        <li><a href="#">Painter On Call</a></li>
+                                        <li><a href="#">Car Washing</a></li>
+                                        <li><a href="#">Car Detailing</a></li>
+                                        <li><a href="#">Car Repair</a></li>
                                         <li><a href="#">Wheels on rent</a></li>
                                     </ul>
                                 </li>

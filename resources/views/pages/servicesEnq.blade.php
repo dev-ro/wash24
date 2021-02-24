@@ -25,7 +25,7 @@
                                         <div class="img-wrapper">
                                             <img src="assets/img/info_icon_1.png" alt="">
                                         </div>
-                                        <h4>Over 23 years of experience</h4>
+                                        <h4>Over 10 years of experience</h4>
                                     </div>
                                 </div>
                             </div>

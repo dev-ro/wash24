@@ -18,10 +18,9 @@
                 <div class="col-xl-2 col-lg-2 col-md-3">
                     <h4>Services</h4>
                     <ul class="links">
-                        <li><a href="#">Snappy Car Detailing</a></li>
-                        <li><a href="#">Disinfectant Services</a></li>
-                        <li><a href="#">Car wash</a></li>
-                        <li><a href="#">Painter On Call</a></li>
+                        <li><a href="#">Car Washing</a></li>
+                        <li><a href="#">Car Detailing</a></li>
+                        <li><a href="#">Car Repair</a></li>
                         <li><a href="#">Wheels on rent</a></li>
                     </ul>
                 </div>

@@ -315,7 +315,7 @@
                                 <img src="assets/img/info_icon_1.png" alt="">
                             </div>
                             <div class="txt">
-                                <p>Over 23 years of experience</p>
+                                <p>Over 10 years of experience</p>
                             </div>
                         </div>
                     </div>
@@ -394,7 +394,8 @@
                             <span>quote</span>
                             <h2>Request a free qoute</h2>
                         </div>
-                        <form action="#">
+                        <form action="{{route('send.mail.enq')}}" method="POST">
+                            @csrf
                             <div class="row">
                                 <div class="col-lg-6">
                                     <div class="form-element">
@@ -403,21 +404,35 @@
                                 </div>
                                 <div class="col-lg-6">
                                     <div class="form-element">
-                                        <select name="type">
-                                            <option value="" selected>Auto Repair</option>
-                                            <option value="">Auto Servicing</option>
-                                            <option value="">Car Wash</option>
-                                            <option value="">Tire Change</option>
+                                        <select name="service">
+                                            <option value="" selected="">Select Services</option>
+                                            <option value="Car Washing">Car Washing</option>
+                                            <option value="Car Detailing">Car Detailing</option>
+                                            <option value="Car Repair">Car Repair</option>
+                                            <option value="Wheels on rent">Wheels on rent</option>
                                         </select>
                                     </div>
                                 </div>
                             </div>
                             <div class="row">
                                 <div class="col-lg-6">
-                                    <div class="form-element"><input name="email" type="text" placeholder="Email"></div>
+                                    <div class="form-element"><input name="email" type="email" placeholder="Email"></div>
                                 </div>
                                 <div class="col-lg-6">
-                                    <div class="form-element"><input name="phone" type="text" placeholder="Phone"></div>
+                                    <div class="form-element"><input name="mobile" type="text" placeholder="Contact Detail"></div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-lg-12">
+                                    <div class="form-element">
+                                        <select name="service">
+                                            <option value="" selected="">Select Services</option>
+                                            <option value="Car Washing">Car Washing</option>
+                                            <option value="">Car Detailing</option>
+                                            <option value="">Car Repair</option>
+                                            <option value="">Wheels on rent</option>
+                                        </select>
+                                    </div>
                                 </div>
                             </div>
                             <div class="row">
@@ -435,5 +450,91 @@
    @include('widgets.logo-slider')
 
     @include('widgets.cta')
+
+
+    <div id="quoteModal" class="modal fade" role="dialog">
+        <div class="modal-dialog">
+          <!-- Modal content-->
+          <div class="modal-content border-0 rounded-0">
+            <div class="modal-header">
+                <h4 class="text-white mb-0 text-capitalize">Request a free qoute</h4>
+              <button type="button" class="close" data-dismiss="modal">&times;</button>
+            </div>
+            <div class="modal-body">
+                <form action="{{route('send.mail.enq')}}" method="POST">
+                    @csrf
+                    <div class="row">
+                        <div class="col-lg-6">
+                            <div class="form-element">
+                                <input type="text" name="name" placeholder="Your name">
+                            </div>
+                        </div>
+                        <div class="col-lg-6">
+                            <div class="form-element">
+                                <select name="service">
+                                    <option value="" selected="">Select Services</option>
+                                            <option value="Car Washing">Car Washing</option>
+                                            <option value="Car Detailing">Car Detailing</option>
+                                            <option value="Car Repair">Car Repair</option>
+                                            <option value="Wheels on rent">Wheels on rent</option>
+                                </select>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-lg-6">
+                            <div class="form-element"><input name="email" type="email" placeholder="Email"></div>
+                        </div>
+                        <div class="col-lg-6">
+                            <div class="form-element"><input name="mobile" type="text" placeholder="Contact Detail"></div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-lg-12">
+                            <div class="form-element">
+                                <select name="car_detail">
+                                    <option value="" selected="">Auto Repair</option>
+                                    <option value="">Auto Servicing</option>
+                                    <option value="">Car Wash</option>
+                                    <option value="">Tire Change</option>
+                                </select>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-lg-12">
+                            <div class="form-element mb-0"><button type="submit"><span>Submit</span></button></div>
+                        </div>
+                    </div>
+                </form>
+            </div>
+          </div>
+        </div>
+      </div>
     
 @endsection
+
+@section('styles')
+    <style>
+       
+        #quoteModal .modal-content {
+            background-color: #ed1c24;
+        }
+        #quoteModal button[type="submit"],  
+        #quoteModal input[type="submit"] {
+            background-color: #000;
+        }
+    </style>
+@endsection
+
+@push('scripts')
+    @if (!session('success'))
+        
+        <script>
+        $(window).load(function(){        
+            $('#quoteModal').modal('show');
+        }); 
+        </script>
+    @endif
+@endpush
+

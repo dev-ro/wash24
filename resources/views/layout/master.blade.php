@@ -25,6 +25,17 @@
     <link rel="stylesheet" href="/assets/css/responsive.css">
     <!-- jquery js -->
     <script src="/assets/js/jquery-1.10.2.min.js"></script>
+
+    @yield('styles')
+
+    <style>
+       .fx_btn {
+            position: fixed;
+            right: 0;
+            top: 30px;
+        }
+    </style>
+
 </head>
 <body>
     @include('widgets.appointment-bar-vert')
@@ -60,7 +71,13 @@
             </div>
           </div>
         </div>
-    </div>
+
+      </div>
+      @foreach (['success' , 'error' , 'warning' , 'info'] as $item)
+          @if (session($item))
+              <div class="alert fx_btn alert-{{$item}}">{{session($item)}}</div>
+          @endif
+      @endforeach
     
     <script src="/assets/js/popper.min.js"></script>
     <script src="/assets/js/bootstrap.min.js"></script>
@@ -70,5 +87,7 @@
     <script src="/assets/js/tilt.jquery.min.js"></script>
     <script src="/assets/js/jquery.slicknav.min.js"></script>
     <script src="/assets/js/main.js"></script>
+
+    @stack('scripts')
 </body>
 </html>
