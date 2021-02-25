@@ -4,7 +4,7 @@
             <div class="row">
                 <div class="col-xl-4 col-lg-4 col-md-12">
                     <a class="logo-wrapper" href="{{route('home.index')}}"><img src="assets/img/wash-24-logo-w.png" alt="{{config('app.name')}}"></a>
-                    <p class="txt">We, {{config('app.name')}} is associated with deep home and business disinfectant services with our professional trainers and representatives by delegating franchisee over all over India.</p>
+                    <p class="txt">We, {{config('app.name')}} is associated with door to door snappy vehicle cleaning services and business disinfectant services with our professional trainers and representatives by delegating franchisee over all over India.</p>
                 </div>
                 <div class="col-xl-2 offset-xl-1 col-lg-2 col-md-3">
                     <h4>Useful Links</h4>
