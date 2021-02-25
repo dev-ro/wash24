@@ -33,6 +33,7 @@
             position: fixed;
             right: 0;
             top: 30px;
+            z-index: 9999999;
         }
     </style>
 
@@ -75,7 +76,12 @@
       </div>
       @foreach (['success' , 'error' , 'warning' , 'info'] as $item)
           @if (session($item))
-              <div class="alert fx_btn alert-{{$item}}">{{session($item)}}</div>
+              <div class="alert fx_btn alert-{{$item}} alert-dismissible fade show" role="alert">
+                <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+                  <span aria-hidden="true">&times;</span>
+                </button>
+                {{session($item)}}
+              </div>
           @endif
       @endforeach
     
