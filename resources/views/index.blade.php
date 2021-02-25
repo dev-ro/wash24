@@ -79,10 +79,40 @@
     </div>
 
     <div class="service-area service-bg">
-        <div class="container">
+        <div class="container-fluid">
             <div class="section-title">
                 <span>OUR SERVICES</span>
                 <h2>WHAT WE PROVIDE</h2>
+            </div>
+            <div class="row">
+                <div class="col-lg-3 col-md-6">
+                    <div class="single-service">
+                        <i class="flaticon-electric-car "></i>
+                        <h3>Car Washing</h3>
+                        <p>Give us a call on +91-8002888900 and wash24.in team will come and wash your car at doorstep .</p>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <div class="single-service">
+                        <i class="flaticon-battery"></i>
+                        <h3>Batter Change</h3>
+                        <p>Give us a call on +91-8002888900 and wash24.in team will come and check your car's battery at your doorstep. In case the battery cannot be restored wash24.in will replace it with a new</p>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <div class="single-service">
+                        <i class="flaticon-break"></i>
+                        <h3>Break Change</h3>
+                        <p>Give us a call on +91-8002888900 and wash24.in team will come and check your car's break if it needed to change the break drum wash24.in team will change it at your doorstep</p>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <div class="single-service">
+                        <i class="flaticon-settings"></i>
+                        <h3>Diagnostic</h3>
+                        <p>Give us a call on on +91-8002888900 and wash24.in team will come at your doosrstep and check your car if any problems found in your car wash24.in team will fix it.</p>
+                    </div>
+                </div>
             </div>
             <div class="services-tab">
                 <ul class="nav nav-tabs" id="myTab" role="tablist">
