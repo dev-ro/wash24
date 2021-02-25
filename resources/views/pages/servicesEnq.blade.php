@@ -159,12 +159,11 @@
                                     <div class="col-md-6">
                                         <div class="form-element">
                                             <select name="services" id="">
-                                                <option value="">Select services</option>
-                                                <option value="">Snappy Car Detailing</option>
-                                                <option value="">Disinfectant Services</option>
-                                                <option value="">Car wash</option>
-                                                <option value="">Painter On Call</option>
-                                                <option value="">Wheels on rent</option>
+                                                <option value="" selected="">Select Services</option>
+                                                <option value="Car Washing">Car Washing</option>
+                                                <option value="Car Detailing">Car Detailing</option>
+                                                <option value="Car Repair">Car Repair</option>
+                                                <option value="Wheels on rent">Wheels on rent</option>
                                             </select>
                                         </div>
                                     </div>
