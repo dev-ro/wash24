@@ -104,6 +104,6 @@
     
     @include('widgets.cta')
     
-    @include('widgets.logo-slider')
+    {{-- @include('widgets.logo-slider') --}}
 
 @endsection

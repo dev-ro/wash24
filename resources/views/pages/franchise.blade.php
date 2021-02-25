@@ -168,5 +168,5 @@
         </div>
     </div>
 </div>    
- @include('widgets.logo-slider')
+ {{-- @include('widgets.logo-slider') --}}
 @endsection
