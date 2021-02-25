@@ -294,7 +294,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-xl-6 col-lg-6">
-                    <div class="about_bg js-tilt"></div>
+                    <div class="about_bg js-tilt" style="background-image: url(assets/img/was-24-img-1.jpg);"></div>
                 </div>
                 <div class="col-xl-5 offset-xl-1 col-lg-6">
                     <div class="section-title">
