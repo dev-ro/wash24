@@ -13,7 +13,7 @@ class EnqSender extends Controller {
             'name' => 'required'
         ]);
 
-        session('success' , 'success' , 'Thanks for enquiring with us. We will be in touch shortly.');
+        session()->flash('success' , 'Thanks for enquiring with us. We will be in touch shortly.');
         
         Mail::to('info@wash24.in')->send(new EnqMail(request()->all()));
 
