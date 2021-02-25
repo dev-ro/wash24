@@ -14,7 +14,7 @@ class EnqMail extends Mailable
     public $name;
     public $service;
     public $mobile;
-    public $car_detail;
+    // public $car_detail;
     public $email;
 
     /**
@@ -26,7 +26,7 @@ class EnqMail extends Mailable
     {
         $this->service = $data['service'];
         $this->mobile = $data['mobile'];
-        $this->car_detail = $data['car_detail'];
+        // $this->car_detail = $data['car_detail'];
         $this->name = $data['name'];
         $this->email = $data['email'];
     }

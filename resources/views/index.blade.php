@@ -334,19 +334,7 @@
                                     <div class="form-element"><input name="mobile" type="text" placeholder="Contact Detail"></div>
                                 </div>
                             </div>
-                            <div class="row">
-                                <div class="col-lg-12">
-                                    <div class="form-element">
-                                        <select name="service">
-                                            <option value="" selected="">Select Services</option>
-                                            <option value="Car Washing">Car Washing</option>
-                                            <option value="">Car Detailing</option>
-                                            <option value="">Car Repair</option>
-                                            <option value="">Wheels on rent</option>
-                                        </select>
-                                    </div>
-                                </div>
-                            </div>
+            
                             <div class="row">
                                 <div class="col-lg-12">
                                     <div class="form-element mb-0"><button type="submit"><span>Submit</span></button></div>
@@ -399,18 +387,6 @@
                         </div>
                         <div class="col-lg-6">
                             <div class="form-element"><input name="mobile" type="text" placeholder="Contact Detail"></div>
-                        </div>
-                    </div>
-                    <div class="row">
-                        <div class="col-lg-12">
-                            <div class="form-element">
-                                <select name="car_detail">
-                                    <option value="" selected="">Auto Repair</option>
-                                    <option value="">Auto Servicing</option>
-                                    <option value="">Car Wash</option>
-                                    <option value="">Tire Change</option>
-                                </select>
-                            </div>
                         </div>
                     </div>
                     <div class="row">
