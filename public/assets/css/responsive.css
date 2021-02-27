@@ -244,11 +244,11 @@
     }
 
     .nav-area .main-menu {
-        padding: 20px 0px 20px 0px;
+        padding: 0px 0px 0px 0px;
         position: relative;
     }
 
-    .nav-area nav ul li.dropdown ul li.dropdown-submenus a:hover > a {
+    .nav-area nav ul li.dropdown ul li.dropdown-submenus a:hover>a {
         background-color: #ff3737;
     }
 
@@ -260,7 +260,7 @@
         display: none;
     }
 
-    .hero-carousel.owl-theme .owl-nav.disabled + .owl-dots {
+    .hero-carousel.owl-theme .owl-nav.disabled+.owl-dots {
         display: none;
     }
 
@@ -572,15 +572,15 @@
         padding: 10px 5px 10px 15px;
     }
 
-    .home-2 .slicknav_nav .slicknav_row:hover > a {
+    .home-2 .slicknav_nav .slicknav_row:hover>a {
         background-color: #ff3737;
     }
 
-    .slicknav_nav li.dropdown > a {
+    .slicknav_nav li.dropdown>a {
         padding: 10px 30px;
     }
 
-    .slicknav_nav li > a {
+    .slicknav_nav li>a {
         padding: 10px 30px;
         border-bottom: 1px solid #0000001a;
     }
@@ -783,7 +783,7 @@
     }
 
     .home-3 .slicknav_nav {
-        top: 69px;
+        top: 43px;
     }
 
     .project-infos {

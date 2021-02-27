@@ -3,24 +3,21 @@
 
 @section('body')
      
-    <div class="hero-area hero-bg">
-        <div class="container">
-            <div class="row">
-                <div class="col-xl-7 col-lg-10 pr-0">
-                    <div class="hero-txt">
-                        <h1>We help your auto to get on the road</h1>
-                        <a href="{{route('contact.us')}}" class="hero-btn"><span>Know More</span></a>
-                    </div>
-                </div>
-                <div class="col-xl-5 col-lg-2">
-                    <div class="img-wrapper">
-                        <img class="hero-img" src="assets/img/hero_img.png" alt="">
-                    </div>
-                </div>
+    <div class="hero-area home-4">
+        <div class="hero-carousel owl-carousel owl-theme">
+            <div class="single-hero-item hero-bg">
+               <img src="assets/img/foam shampooing.jpg" alt="foam shampooing">
+            </div>
+            <div class="single-hero-item hero-bg">
+               <img src="assets/img/deepinterior cleaning with vaccum.jpg" alt="deepinterior cleaning with vaccum">
+            </div>
+            <div class="single-hero-item hero-bg">
+               <img src="assets/img/interior cleaning polish.jpg" alt="interior cleaning polish">
+            </div>
+            <div class="single-hero-item hero-bg">
+               <img src="assets/img/ultra shine with polish.jpg" alt="ultra shine with polish">
             </div>
         </div>
-        <div class="hero-overlay"></div>
-        <div class="shape"></div>
     </div>
 
     <div class="feature-area feature-bg">

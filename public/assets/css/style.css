@@ -836,7 +836,7 @@ input[type="submit"] span {
 .nav-area ul.menus li {
     display: inline-block;
     margin-right: 5px;
-    padding: 20px 0px 20px;
+    padding: 10px 0px 10px;
 }
 
 .nav-area ul.menus li a {
@@ -1015,7 +1015,7 @@ ul.search-cart li:first-child::after {
 
 .nav-area .menus li.dropdown ul.dropdown-lists {
     position: absolute;
-    top: 68px;
+    top: 51px;
     left: 0px;
     -webkit-transform: translate(-50%, 30px);
     transform: translate(-50%, 30px);
@@ -1099,7 +1099,7 @@ ul.search-cart li:first-child::after {
 }
 
 .nav-area .menus li.dropdown ul.dropdown-lists li a {
-    padding: 10px 0px;
+    padding: 8px 0px;
     display: block;
     text-align: center;
 }
@@ -1308,7 +1308,6 @@ ul.search-cart li:first-child::after {
 ---------------------------*/
 
 .hero-bg {
-    background-image: url('../img/hero_bg_1.jpg');
     background-size: cover;
     background-position: center;
 }
@@ -1352,7 +1351,7 @@ ul.search-cart li:first-child::after {
 }
 
 .hero-txt {
-    padding: 252px 0px 210px;
+    padding: 70px 0px 70px;
 }
 
 a.hero-btn {
