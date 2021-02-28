@@ -26,36 +26,43 @@
                 <div class="row">
                     <div class="col-lg-4 col-md-6">
                         <div class="single-feature">
-                            <img src="assets/img/feature_1.jpg" alt="">
+                            <img src="assets/img/interior-cleaned-img.jpeg" alt="washed">
                             <div class="feature-info">
-                                <div class="icon-wrapper"><i class="flaticon-timing-belt"></i></div>
+                                <div class="icon-wrapper">
+                                    <img src="assets/img/washed-icon.png" width="50" style="margin-right: 5px;
+margin-left: -10px;" alt="washed icon">
+                                </div>
                                 <div class="feature-txt">
-                                    <h3>WE MAKE IT EASY</h3>
-                                    <p>Tell us what your car needs or ask for a diagnostic. Receive a free, fast, fair & transparent price quote.</p>
+                                    <h3>WASHED</h3>
+                                    <p>A clean engine compartment makes a used car look newer and better maintained. Some shops that perform engine cleaning services claim a clean engine even runs a little cooler because removing the gunk formed by dirt, oil and grease allows engines to run cooler</p>
                                 </div>
                             </div>
                         </div>
                     </div>
                     <div class="col-lg-4 col-md-6">
                         <div class="single-feature">
-                            <img src="assets/img/feature_2.jpg" alt="">
+                            <img src="assets/img/polished-img.jpeg" alt="polished">
                             <div class="feature-info">
-                                <div class="icon-wrapper"><i class="flaticon-wrench"></i></div>
+                                <div class="icon-wrapper"> <img src="assets/img/polished-icon.png" width="50" style="margin-right: 5px;
+margin-left: -10px;" alt="polished icon"></div>
                                 <div class="feature-txt">
-                                    <h3>Fair Pricing</h3>
-                                    <p>Tell us what your car needs or ask for a diagnostic. Receive a free, fast, fair & transparent price quote.</p>
+                                    <h3>POLISHED</h3>
+                                    <p>We Details your Car Headlight Details with polish Its Shines Cames just like a New Headlight.</p>
                                 </div>
                             </div>
                         </div>
                     </div>
                     <div class="col-lg-4 col-md-6">
                         <div class="single-feature">
-                            <img src="assets/img/feature_3.jpg" alt="">
+                            <img src="assets/img/washed-img.jpeg " alt="interior-cleaned">
                             <div class="feature-info">
-                                <div class="icon-wrapper"><i class="flaticon-fan"></i></div>
+                                <div class="icon-wrapper"> 
+                                    <img src="assets/img/interior-cleaned-icon.png" width="50" style="margin-right: 5px;
+margin-left: -10px;" alt="interior cleaned icon">
+                                </div>
                                 <div class="feature-txt">
-                                    <h3>Secured</h3>
-                                    <p>Tell us what your car needs or ask for a diagnostic. Receive a free, fast, fair & transparent price quote.</p>
+                                    <h3>INTERIOR CLEANED</h3>
+                                    <p>Ceramic coatings can provide high-performance oxide layers on metals and alloys to solve the problems of corrosion, wear, heat, insulation and friction. Some ceramic coatings include thermal spray coating, plasma spray coating, sputter coating, dry-film lubricants and other wet chemical and electrochemical coatings</p>
                                 </div>
                             </div>
                         </div>
@@ -92,7 +99,7 @@
                 <div class="col-lg-3 col-md-6">
                     <div class="single-service">
                         <i class="flaticon-battery"></i>
-                        <h3>Batter Change</h3>
+                        <h3>Battery Change</h3>
                         <p>Give us a call on +91-8002888900 and wash24.in team will come and check your car's battery at your doorstep. In case the battery cannot be restored wash24.in will replace it with a new</p>
                     </div>
                 </div>

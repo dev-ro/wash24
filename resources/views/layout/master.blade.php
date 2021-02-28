@@ -20,9 +20,9 @@
     <!-- slicknav css -->
     <link rel="stylesheet" href="/assets/css/slicknav.css">
     <!-- main css -->
-    <link rel="stylesheet" href="/assets/css/style.css">
+    <link rel="stylesheet" href="/assets/css/style-v1.css">
     <!-- responsive css -->
-    <link rel="stylesheet" href="/assets/css/responsive.css">
+    <link rel="stylesheet" href="/assets/css/responsive-v1.css">
     <!-- jquery js -->
     <script src="/assets/js/jquery-1.10.2.min.js"></script>
 

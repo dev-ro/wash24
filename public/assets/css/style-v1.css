@@ -1464,7 +1464,7 @@ a.hero-btn:hover::after {
 
 .feature-area .single-feature .feature-info {
     background-color: #312f2f;
-    padding: 36px 31px 32px;
+    padding: 36px 20px 32px;
     color: #fff;
     display: -webkit-box;
     display: -ms-flexbox;
